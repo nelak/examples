@@ -14,7 +14,7 @@ function handler(context: azureFunction.Context, request: azureFunction.HttpRequ
         headers: {
             "content-type": "text/plain",
         },
-        body: `Greetings from Azure Functions!\n\n===\n\n${body}`,
+        body: `Greetings2 from Azure Functions!\n\n===\n\n${body}`,
     };
 
     context.done(undefined, res);
